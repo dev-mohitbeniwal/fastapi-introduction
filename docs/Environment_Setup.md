@@ -4,8 +4,8 @@
 
 You must have following installed the following
 
-- Python 3.6+
-- Pip
+-   Python 3.6+
+-   Pip
 
 ## Preferred Option
 
@@ -13,8 +13,8 @@ Managing the Python environments using Anaconda is really easy. With conda envir
 
 ### Step 1: Installing Anaconda
 
-- Download the .dmg file from using this [link](https://repo.anaconda.com/archive/Anaconda3-2023.07-1-MacOSX-arm64.pkg) This is the latest version of Anaconda at present.
-- Install the Anaconda with default configuration.
+-   Download the .dmg file from using this [link](https://repo.anaconda.com/archive/Anaconda3-2023.07-1-MacOSX-arm64.pkg) This is the latest version of Anaconda at present.
+-   Install the Anaconda with default configuration.
 
 ### Step 2: Managing Virtual Environment
 
@@ -55,21 +55,21 @@ The `--all` flag removes all the packages installed in that environment.
 ## Setting up Environment for the FastAPI POC
 
 1. Create new environment:
-   ```bash
-   conda create -n fastapi-poc python=3.8
-   ```
+    ```bash
+    conda create -n fastapi-poc python=3.8
+    ```
 2. Activate environment:
-   ```bash
-   conda activate fastapi-poc
-   ```
+    ```bash
+    conda activate fastapi-poc
+    ```
 3. Installing required packages:
    With conda pip is available in all the environments by default. When you install any package using pip inside an environment, those packages remain isolated within that particular environment.
 
-   With pip you can install multiple packages using requirements file. For this POC you can install all the required packages by running the following command from the root directory of this project:
+    With pip you can install multiple packages using requirements file. For this POC you can install all the required packages by running the following command from the root directory of this project:
 
-   ```bash
-   pip install -r ./pre-req/requirements.txt
-   ```
+    ```bash
+    pip install -r ./requirements.txt
+    ```
 
 ### [Next Topic: Getting Started with Fast API](/docs/Getting_Started.md)
 
