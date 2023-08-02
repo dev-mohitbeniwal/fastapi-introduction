@@ -97,8 +97,12 @@ Here, we raise an `HTTPException` if the item is not found. FastAPI will automat
 
 This guide provides a quick overview of these topics. Each of them has in-depth documentation and examples in the [official FastAPI documentation](https://fastapi.tiangolo.com/). Remember to consult it whenever you need a more detailed explanation or examples.
 
+### [Next Topic: Advanced Topics in FastAPI](/docs/advanced/Advance_Topics.md)
+
+### [Previous Topic: Getting Started with Fast API](/docs/Getting_Started.md)
+
 ## Also See
 
 -   ### [SQLModel and BaseModel](/docs/deep_dive/SQLModel.md)
 
--   ### [FastAPI's APIRouter]()
+-   ### [FastAPI's APIRouter](/docs/deep_dive/APIRouter.md)
