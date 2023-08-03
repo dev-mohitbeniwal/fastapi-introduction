@@ -52,3 +52,7 @@ Refer: [FastAPI File Uploads](https://fastapi.tiangolo.com/tutorial/request-file
 FastAPI apps can be deployed on various platforms like Heroku, AWS, Google Cloud, etc. The official documentation provides guides on several deployment options.
 
 Refer: [FastAPI Deployment](https://fastapi.tiangolo.com/deployment/)
+
+### [Next Topic: Project Structuring](/docs/advanced/project_structure/Project_Structure.md)
+
+### [Previous Topic: Deep Dive into FastAPI](/docs/deep_dive/Deep_Dive.md)
