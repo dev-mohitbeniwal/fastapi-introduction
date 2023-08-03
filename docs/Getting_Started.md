@@ -54,8 +54,8 @@ We just added a new endpoint `/items/{item_id}`, which uses a path parameter ite
 
 FastAPI automatically generates two sets of interactive API documentation. You can see them once our app is running, by going to:
 
--   Swagger UI: http://localhost:8000/docs
--   ReDoc: http://localhost:8000/redoc
+- Swagger UI: http://localhost:8000/docs
+- ReDoc: http://localhost:8000/redoc
 
 Remember to replace `8000` with the port we're running our application on.
 
@@ -123,10 +123,10 @@ async def shutdown_event():
 
 Remember to run our application with `uvicorn main:app --reload` every time we make changes.
 
-## Also See
-
--   ### [Naming Conventions](/docs/standard/Naming_Conventions.md)
-
 ### [Next Topic: Deep Dive](/docs/deep_dive/Deep_Dive.md)
 
 ### [Previous Topic: Environment Setup](/docs/Environment_Setup.md)
+
+## Also See
+
+- ### [Naming Conventions](/docs/standard/Naming_Conventions.md)
